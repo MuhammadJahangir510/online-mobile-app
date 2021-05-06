@@ -77,3 +77,429 @@ var a =15;
   
   
 }
+// ------------------------------------------------------------
+--------------------------------------------------------------
+void main() {
+  // number
+  // # int only for intiger
+//    int a = 2;
+//   print(a);
+  
+  //#double
+//    double a = 2.5;
+//   print(a);
+  
+//   num a = 2.5;
+//   num b = 3;
+//   num c = a + b;
+//   print(c);
+  
+// string for charcter  
+//   String a = "hello world";
+//   print(a);
+  
+  //bool for true or false
+  
+//   var a = 10;
+//   var b = 20;
+//   bool check = a<b;
+//   print(check);
+
+//  airthmatic operator
+//   var a = 10;
+//   var b = 20;
+//   var c = a+b;
+//   var d = b-a;
+//   var e = a*b;
+//   var f = a/b;
+//   var g = a~/b;
+//   var h = a%b;
+  
+//   print ('$c + $d + $e + $f + $g + $h');
+  
+ //## increament ++ and decreament --
+//   int f = 3;
+//   int g = f++ + --f - f + f++ - f-- +  ++f;
+//       //  3  +   3  - 3  + 3 - 4 + 4
+//   print(g); 
+  
+//    int x = 9;
+//    int y = x + ++x - x-- + x++ + x - --x + ++x - x--;  
+//       //    9 + 10 - 10 + 9 + 10 - 9 + 10 - 10;
+//     print(y);
+  
+//  num  a = 11;
+//  num b = 22;
+//  num c =  a + b + a++ + b++ + ++a + ++b;
+//   print(c);
+  
+//   num a = 10;
+//   bool check = a>20;
+//   print(check);
+  
+//    num b = 10;
+//   bool check1 = b<20;
+//   print(check1);
+  
+//    num c = 10;
+//   bool check2 = c<=20;
+//   print(check2);
+  
+//    num a = 10;
+//   bool check = a>=20;
+//   print(check);
+  
+//    num a = 10;
+//   bool check = a==20;
+//   print(check);
+  
+//    num a = 10;
+//   bool check = a!=20;
+//   print(check);
+  
+//   num a = 10;
+//   num b = 20;
+//   bool check = a<15 && b>10;
+//   print(check);
+  
+//   num a = 10;
+//   num b = 20;
+//   bool check = a<5 && b>10;
+//   print(check);
+  
+//   num a = 10;
+//   num b = 20;
+//   bool check = a<5 || b>10;
+//   print(check);
+  
+//   num a = 10;
+//   num b = 20;
+//   bool check = a<5 || b>30;
+//   print(check);
+  
+//   num a = 10;
+//   num b = 20;
+//   bool check = !(a<b);
+//   print(check);
+  
+//   var a = 10;
+//   var b = 20;
+//   if (a>b){
+//     print("a is greater than b");
+//   }else if (a==b){
+//     print("a is equal to b");
+//   }else if(a<b){
+//     print("a is less than b");
+//   }else{
+//     print("it is not equal");
+//   }
+  
+//   ##list
+// ## fixed length list
+// var lis = new List(4);
+//   lis[0]= "taha";
+//   lis[1] = "talha";
+//   lis[2] = "ayan";
+//   lis[3] = "rehan";
+//   print(lis[0]);
+//   print(lis);
+//   print(lis.runtimeType);
+  
+  
+//   List <String> lis = new List(4);
+//   lis[0]= "taha";
+//   lis[1] = "talha";
+//   lis[2] = "ayan";
+//   lis[3] =  "rehan";
+//   print(lis[0]);
+//   print(lis);
+//   print(lis.runtimeType);
+  
+  
+//    var a = [10,20,"hello"];
+//   a.add(5);
+//    print (a);
+//   print(a.runtimeType);
+  
+// var lis = new List();
+//   lis.add("taha");
+//   lis.add  ("talha");
+//   lis.add ("ayan");
+//   lis.add ("rehan");
+//    print(lis);
+//   print(lis.runtimeType);
+  
+//   var lis = [];
+//   lis.add("taha");
+//   lis.add  ("talha");
+//   lis.add ("ayan");
+//   lis.add ("rehan");
+//    print(lis);
+//   print(lis.length);
+//   print(lis.reversed);
+//   print(lis.first);
+//   print(lis.runtimeType);
+  
+  
+//    var lis = [];
+//   lis.add("taha");
+//   lis.add  ("talha");
+//   lis.add ("ayan");
+//   lis.add ("rehan");
+//   lis.remove("ayan");
+//   lis.removeAt(1);
+//   print(lis);
+  
+//   var lis = ["jahngir", "ayan", "farhan"];
+//   lis[0] = "Muhammad";
+//   print(lis);
+    
+  // #update list
+//    var list1 = ["bilal",1,true,"ali","umair"];
+//    list1.replaceRange(2,4,["ahmed",false]);
+//    print(list1);
+   
+ //## add list
+//   var list1 = ["bilal",1,true,"ali","umair"];
+//   list1.addAll([10,20]);
+//   print(list1);
+  
+  //## insert 
+//    var list1 = ["bilal",1,true,"ali","umair"];
+//   list1.insert(1,"Muhammad");
+//   print(list1);
+  
+//   var list1 = ["bilal",1,true,"ali","umair"];
+//   list1.insertAll(2,[2,3]);
+//   print(list1);
+  
+  
+//     var list6=[8,4,6,9,7,1];
+  
+//   var list7 = [12,19,-7,-2,-1,25,36];
+//   list6.addAll(list7);
+//   list6.sort();
+//   print(list6);
+  
+  
+// //   ##map 
+  
+  
+//   var a = {"name":"jahangir", "class":4,"age":13};
+//   print(a["name"]);
+//   print(a);
+//   print(a.values);
+//   print(a.keys);
+//   print(a.length);
+//   print(a.clear);
+//   
+  
+//   ##add method
+//   a["subject"] = "computer";
+//   a.putIfAbsent("city", ()=> "karachi");
+//   a.addAll({"subject":"computer","city":"karachi"});
+//   print('Map:${a}');
+  
+//   ## remove method
+//   a.remove("name");
+//   print(a);
+  
+//   var words = {
+// 1: 'sky',
+// 2: 'fly',
+// 3: 'ribbon',
+// 4: 'falcon',
+// 5: 'rock',
+// 6: 'ocean',
+// 7: 'cloud'
+// };
+//   words.removeWhere((key,value) => value.startsWith('r'));
+// print(words);
+  
+//  var f1 = {1: 'Apple', 2: 'Orange'};
+// var f2 = {3: 'Banana'};
+// var f3 = {4: 'Mango'};
+// var fruit = {}..addAll(f1)..addAll(f2)..addAll(f3);
+// print(fruit);
+// var fruit3 = {...f1, ...f2, ...f3};
+// print(fruit3);
+  
+  
+//   var letters = ['I', 'II', 'V', 'X', 'L'];
+//   var numbers = [1, 2, 5, 10, 50];
+//   var data =  Map.fromIterables(letters,numbers);
+//   print(data.containsValue(10));
+//   print(data);
+  
+  
+//   var fruit = {1: 'Apple', 2: 'Banana', 3: 'Cherry', 4: 'Orange'};
+// fruit.forEach((key, val) {
+// print(' $key,$val');
+// });
+  
+  
+//   ## data defined map
+  
+//   Map<String,String> address = {
+//   "name":"jahangir", "class":"kg"
+//   };
+//   print(address);
+//   print(address.runtimeType);
+  
+//   ## empty map
+//    var a = Map();
+//   print(a);
+  
+  
+//   var b = {};
+//   print(b);
+  
+//   ## set is used for unique value
+//   var a = { "jahangir", "khan","ayan"};
+//   print(a);
+  
+  
+// ## empty set
+//    var a = <String>{};
+//   print(a.runtimeType);
+  
+//    Set<String> a = Set();
+//   print(a.runtimeType);
+  
+//    Set<String> a = {};
+//   print(a.runtimeType);
+  
+  
+//   ### Loop
+  
+//  # for loop
+//   for(var i =0; i < 10; i++){
+//     print(i);
+//   }
+  
+//     for(var i =1; i <= 10; i++){
+//     print( " 2 x $i = ${i*2}");
+//   }
+  
+//   var a = ["Muhammad", "jahangir","khan"];
+//   for(var i in a){
+//     print(i);
+//   }
+//     var a = ["Muhammad", "jahangir","khan"];
+//    for(var i =0; i < a.length; i++){
+//      print(i);
+//      }
+  
+  
+//     var a = ["Muhammad", "jahangir","khan"];
+//    for(var i =0; i < a.length; i++){
+//      print(a[i]);
+//      }
+  
+  
+//   ## while loop 
+//    var i = 1;
+//   while (i <5){
+//     print(i);
+//     i++;
+//   }
+     
+  
+//  #do while loop 
+//    var i = 1;
+//   do{
+//     print(i);
+//     i++;
+    
+//   }while(i<10);
+  
+  
+//   for in loop with Map
+//    var a = { "name":"jahangir", "class":3,"age":14,"subject":"computer"};
+  
+//     for ( var key in a.keys){
+//       print(key);
+//     }
+//   for ( var value in a.values){
+//       print(value);
+    
+//   }
+  
+//   #for each loop with list
+//   var a = [ "hello"," jahngir",10, true];
+//   a.forEach((value) => print (value));
+  
+//   ## convert list into Map
+//     var a = [ "hello"," jahngir",10, true];
+  
+//   a.asMap().forEach((i, value) => print("$i = $value"));
+  
+  
+//   ##for each loop with Map(
+//   var a = { "name":"jahangir", "class":3,"age":14,"subject":"computer"};
+//   a.forEach((key,value) => print("$key = $value"));
+  
+  
+//   ## Break and continue
+//   var a = true;
+//   var b = 0;
+//   while(a){
+//     b++;
+//     if (b==10){
+//       break;
+//     }
+//     if (b==5){
+//       continue;
+//     }
+   
+//   print("data is fetching...$b"); 
+//   }
+  
+//   ## switch and case
+//   var command = "closed";
+//   switch (command){
+//     case "closed":
+//       print("ticket closed");
+//       break;
+//     case "pending":
+//       print("ticket is pending");
+//       break;
+//     default:
+//       print("invalid");
+//   }
+      
+//    var ans= total(1,9,5);
+//   print ("The answer of the total method is ${ans} as we compiled it"); 
+// }dynamic total(var n1,var n2,var n3){ var sum = n1+n2+n3;return sum;
+  
+//    }
+// // oid main() { bool a=true; do{ print(a); a=true; } while (a!= false);
+  
+  
+//   num a=4; 
+//   for (var i=1;i<2;i++){
+//    print (i*a); 
+//                        } 
+//   if(false)
+//   {
+//     print('true'); }else{
+//     print('false');
+  
+// }
+//   var ans= total(2,6,7);
+// }
+// dynamic total(var n1,var n2,var n3){
+//     var sum = n1+n2+n3;
+//       return sum;}
+  
+  
+//    calc(7,6,2); }
+// dynamic calc(var a,var b,var c){ var sum = d+e+f; print (sum);
+ var a= 1; 
+  while (a<2){ print (a);
+              a++; }
+  
+} 
+  
+
+
